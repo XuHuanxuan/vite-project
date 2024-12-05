@@ -1,25 +1,28 @@
 <script setup>
 import Calculator from "./components/Calculator.vue"
+import Calculator from "./components/Game2048.vue"
 </script>
 
 <template>
   <div class="container">
     <h1>Vue Calculator</h1>
     <Calculator />
+    <div class="card">
+      <Game2048 />
+    </div>
   </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
 }
 </style>
