@@ -1,6 +1,6 @@
 <script setup>
 import Calculator from "./components/Calculator.vue"
-import Calculator from "./components/Game2048.vue"
+import Game2048 from "./components/Game2048.vue"
 </script>
 
 <template>
